@@ -1,6 +1,5 @@
 #include "ruby.h"
-#include "rubyio.h"
-#include "version.h"
+#include "ruby/io.h"
 
 #ifndef HAVE_RB_IO_T
 #define rb_io_t OpenFile
